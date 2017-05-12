@@ -1,0 +1,117 @@
+body {
+  background-color: #444;
+}
+
+h1 {
+  color: white;
+  margin-left: 50px;
+}
+
+.header {
+  background-color: #ddd;
+  overflow: hidden;
+}
+
+.header a {
+  float: left;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #333;
+}
+
+.header a:hover {
+  background-color: #ccc;
+}
+
+.header .active {
+  background-color: #bbb;
+  color: black;
+}
+.header .active:hover {
+  background-color: #bbb;
+}
+
+.gallery-wrapper {
+  margin: 10px 30px;
+}
+
+.gallery {
+  margin: 0 auto;
+}
+
+.image-element {
+  margin: 4px;
+  border-radius: 5px;
+  background-color: white;
+  width: 200px;
+}
+
+.image {
+  border-radius: 5px 5px 0 0;
+  display: block;
+  width: 100%;
+  cursor: zoom-in;
+}
+
+.image-description {
+  text-align: center;
+  background-color: #eee;
+  padding: 3px;
+}
+
+.image-buttons {
+  float:right;
+  margin: 5px;
+  display: inline-block;
+}
+
+.image-button {
+  cursor: pointer;
+  margin: 5px;
+}
+
+.modal-image {
+  cursor: zoom-out;
+  max-width: 90vw;
+}
+
+.modal-image-wrapper {
+  height: 100%;
+}
+
+.user-link {
+  display: inline-block;
+  margin:5px;
+}
+
+.user-image {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.form-image-wrapper {
+  text-align: center;
+  height: 250px;
+  margin-bottom: 15px;
+}
+
+.form-image-placeholder {
+  border: 1px solid #ddd;
+  height: 250px;
+}
+
+.form-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.form-button {
+  margin-right: 15px;
+}
+
+.picture-form-wrapper {
+  display: inline-block;
+  margin-left: 20px;
+}
